@@ -20,8 +20,8 @@ Route::get('/about',function(){
 return view('about');
 });
 
-Route::get('/gallery',function(){
-    return view('gallery');
+Route::get('/contact',function(){
+    return view('contact');
 });
 //END SECTION-1 ====================
 
@@ -29,8 +29,8 @@ Route::get('/gallery',function(){
 //For navigation button using PageController only.
 //=========SECTION-2================================
 
-// Route::get('/home',[PageController::class,'home']);
-// Route::get('/about',[PageController::class,'about']);
-// Route::get('/gallery',[PageController::class,'gallery']);
+// Route::get('/home',[PageController::class,'home'])->name('home');
+// Route::get('/about',[PageController::class,'about'])->name('about');
+// Route::get('/contact',[PageController::class,'contact'])->('contact');
 
 //END SECTION-2 =====================================

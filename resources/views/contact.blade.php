@@ -1,9 +1,9 @@
 @extends('layouts.master')
-@section('title','Gallery')
+@section('title','Contact')
 @section('content')
 <section>
     <center>
-    <p>This is gallery page</p>
+    <p>This is contact page</p>
     </center>
 </section>    
 @endsection

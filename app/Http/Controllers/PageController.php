@@ -12,9 +12,9 @@ class PageController extends Controller
         return view('home');
     }
 
-    public function gallery()
+    public function contact()
     {
-        return view('gallery');
+        return view('contact');
     }
 
     public function about()
