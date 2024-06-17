@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../index.css">
+<style>
+    body{background-color: aqua;}
+   
+</style>
+<body>
+    
+ <center>
+<h1>    
+    Student Information
+</h1>
+
+<form>
+<table>
+    <tr>
+        <td><label for="fname" >Name:</label></td>
+        <td><input type="text" id="fname" name="fname"  placeholder ="" value =""></td>
+    </tr>
+<tr>
+<td><label for ="lname">Last Name :</label></td>
+<td><input type = "text" id="lname" name="lname" placeholder = "" value=""></td>
+</tr>
+<tr>
+<td><label for="gender">Gender :</label></td>
+<td>
+<input type ="radio" id="male" name = "gender" value ="male">
+<label for = "male" > Male </label>
+<input type = "radio" id = "female" name = "gender"value ="female">
+<label for = "female" > Female </label>
+<input type ="radio" id = "other"  name ="gender" value ="other">
+<label for = "Other"> Other </label><br>
+</td>
+</tr>
+<tr>
+<td><label for="subject"> Subject :</label></td>
+<td>
+<input type ="checkbox" id = "c" name = "subject" value ="c">
+<label for = "c" > C </label>
+<input type ="checkbox" id="java" name = "subject" value = "java">
+<label for="java"> Java </label>
+<input type ="checkbox" id="php" name = "subject" value ="php">
+<label for="php">PHP</label><br>
+</td>
+</tr>
+<tr>
+<td><labl for="comment"> Comment :</labl></td>
+<td><input type="text" id ="comment" value = ""> </td>
+</tr>
+<tr>
+<td></td>
+<td>
+    <input type="submit" value="Submit" class = "btnsubmit">
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
